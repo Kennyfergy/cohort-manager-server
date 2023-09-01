@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="vendor/jquery.js"></script>
+   <script src="js/script.js"></script>
+   <title>Cohort Manager</title>
+</head>
+
+<body>
+   <main id="form">
+      <header>
+         <h1>Cohort Manager</h1>
+      </header>
+      <section>
+         <h2>Add New Cohort</h2>
+         <input type="text" placeholder="Name" id="cohortName" />
+         <input type="Number" placeholder="Number Of Students" id="cohortCount" value="0" />
+         <button id="addCohort">Add Cohort</button>
+      </section>
+
+      <section>
+         <h2>Cohorts</h2>
+         <h3>There are <span id="totalStudents">0</span> total students</h3>
+         <ul id="cohorts"></ul>
+      </section>
+
+      <footer>&copy; 2023 Koss Cohort</footer>
+   </main>
+</body>
+
+</html>
