@@ -1,0 +1,16 @@
+{
+  "name": "koss-cohort-manager",
+  "version": "1.0.0",
+  "description": "This is a small review project for the koss cohort. The user can add new cohorts and delete them. The total number of students is  displayed on the page.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
